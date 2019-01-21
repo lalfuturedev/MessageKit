@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AudioMessageCell: MessageContentCell{
+open class AudioMessageCell: MessageContentCell{
     override func setupSubviews() {
         super.setupSubviews()
         backgroundView?.backgroundColor = .black

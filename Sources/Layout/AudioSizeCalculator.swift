@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AudioSizeCalculator: MessageSizeCalculator{
+open class AudioSizeCalculator: MessageSizeCalculator{
     override func messageContainerSize(for message: MessageType) -> CGSize {
         return CGSize(width: 100, height: 50)
     }
