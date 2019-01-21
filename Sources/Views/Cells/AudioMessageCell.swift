@@ -9,12 +9,12 @@
 import Foundation
 
 open class AudioMessageCell: MessageContentCell{
-    override func setupSubviews() {
+    open override func setupSubviews() {
         super.setupSubviews()
         backgroundView?.backgroundColor = .black
     }
     
-    override func configure(with message: MessageType, at indexPath: IndexPath, and messagesCollectionView: MessagesCollectionView) {
+    open override func configure(with message: MessageType, at indexPath: IndexPath, and messagesCollectionView: MessagesCollectionView) {
         super.configure(with: message, at: indexPath, and: messagesCollectionView)
     }
 }
