@@ -59,7 +59,7 @@ public enum MessageKind {
 
     // MARK: - Not supported yet
 
-//    case audio(Data)
+    case audio(Data)
 //
 //    case system(String)
 //    
