@@ -15,7 +15,7 @@ open class AudioMessageCell: MessageContentCell{
         bgView.backgroundColor = .red
         messageContainerView.addSubview(bgView)
         bgView.centerInSuperview()
-        bgView.constraint(equalTo: CGSize(width: messageContainerView.frame.width, height: messageContainerView.frame.height))
+        bgView.constraint(equalTo: CGSize(width: 100, height: 50))
     }
     
     open override func configure(with message: MessageType, at indexPath: IndexPath, and messagesCollectionView: MessagesCollectionView) {
