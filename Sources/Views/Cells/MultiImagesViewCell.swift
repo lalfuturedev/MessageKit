@@ -14,6 +14,8 @@ open class MultiImagesViewCell: MessageContentCell{
     open override func setupSubviews() {
         super.setupSubviews()
         collectionView = UICollectionView()
+        let flowLayout = UICollectionViewFlowLayout()
+        collectionView.collectionViewLayout = flowLayout
         messageContainerView.addSubview(collectionView)
         collectionView.fillSuperview()
         collectionView.backgroundColor = .black
