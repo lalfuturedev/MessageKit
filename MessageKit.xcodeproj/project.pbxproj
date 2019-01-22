@@ -40,6 +40,7 @@
 		882A823F21F5B15300E749C8 /* AudioSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A823E21F5B15300E749C8 /* AudioSizeCalculator.swift */; };
 		88427C1C21F6BC6500B279CC /* MultiImagesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88427C1B21F6BC6500B279CC /* MultiImagesViewCell.xib */; };
 		88427C1E21F6BCA300B279CC /* MultiImagesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88427C1D21F6BCA300B279CC /* MultiImagesViewCell.swift */; };
+		88427C2021F6C02300B279CC /* MultiImagesSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88427C1F21F6C02300B279CC /* MultiImagesSizeCalculator.swift */; };
 		88916B2D1CF0DF2F00469F91 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88916B221CF0DF2F00469F91 /* MessageKit.framework */; };
 		8962AC8A1F87AB7D0030B058 /* MessagesCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962AC831F87AB230030B058 /* MessagesCollectionViewTests.swift */; };
 		8962AC8C1F87AB7D0030B058 /* AvatarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962AC851F87AB230030B058 /* AvatarViewTests.swift */; };
@@ -139,6 +140,7 @@
 		882A823E21F5B15300E749C8 /* AudioSizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSizeCalculator.swift; sourceTree = "<group>"; };
 		88427C1B21F6BC6500B279CC /* MultiImagesViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiImagesViewCell.xib; sourceTree = "<group>"; };
 		88427C1D21F6BCA300B279CC /* MultiImagesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiImagesViewCell.swift; sourceTree = "<group>"; };
+		88427C1F21F6C02300B279CC /* MultiImagesSizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiImagesSizeCalculator.swift; sourceTree = "<group>"; };
 		88916B221CF0DF2F00469F91 /* MessageKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88916B2C1CF0DF2F00469F91 /* MessageKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8962AC741F87AB230030B058 /* MessageKitDateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKitDateFormatterTests.swift; sourceTree = "<group>"; };
@@ -441,6 +443,7 @@
 				1FE783A5206629C2007FA024 /* LocationMessageSizeCalculator.swift */,
 				0EF0888B206F7E83007F2F58 /* CellSizeCalculator.swift */,
 				882A823E21F5B15300E749C8 /* AudioSizeCalculator.swift */,
+				88427C1F21F6C02300B279CC /* MultiImagesSizeCalculator.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				382C794221705D2000F4FAF5 /* HorizontalEdgeInsets.swift in Sources */,
 				B7A03F3C1F866946006AEF79 /* LocationMessageCell.swift in Sources */,
 				1FF377AA20087D78004FD648 /* MessagesViewController+Menu.swift in Sources */,
+				88427C2021F6C02300B279CC /* MultiImagesSizeCalculator.swift in Sources */,
 				B7A03F5B1F8669CA006AEF79 /* MessageType.swift in Sources */,
 				B7A03F601F8669CA006AEF79 /* MessagesDisplayDelegate.swift in Sources */,
 				1FE783A8206633C0007FA024 /* InsetLabel.swift in Sources */,
