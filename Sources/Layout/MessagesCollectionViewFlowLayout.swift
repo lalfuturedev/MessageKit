@@ -167,6 +167,8 @@ open class MessagesCollectionViewFlowLayout: UICollectionViewFlowLayout {
             return locationMessageSizeCalculator
         case .audio:
             return audioMessageSizeCalculator
+        case .multiImages:
+            return photoMessageSizeCalculator
         case .custom:
             return messagesLayoutDelegate.customCellSizeCalculator(for: message, at: indexPath, in: messagesCollectionView)
         }
