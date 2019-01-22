@@ -9,11 +9,11 @@
 import Foundation
 
 open class MultiImagesViewCell: MessageContentCell{
-    
-    @IBOutlet weak var collectionView: UICollectionView!
+    open var collectionView: UICollectionView!
     
     open override func setupSubviews() {
         super.setupSubviews()
+        collectionView = UICollectionView()
         messageContainerView.addSubview(collectionView)
         collectionView.fillSuperview()
         collectionView.backgroundColor = .black
